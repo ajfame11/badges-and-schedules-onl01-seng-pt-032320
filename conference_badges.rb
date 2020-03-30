@@ -14,8 +14,9 @@ def assign_rooms(attendees)
   return room_assignments
   end
   def printer
-    puts bacth_badge_creator
+    puts batch_badge_creator
+    puts new_array
     puts assign_rooms.each |name, index|
-    puts "Hello, #{name}! You'll be assigned to room #{index+1}!"
+    puts room_assignments
   end
 end
